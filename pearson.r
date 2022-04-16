@@ -36,7 +36,7 @@ corrplot(corr, tl.col = 'black', order = 'hclust', p.mat = corr1$p,
          pch.col = 'green', type = 'lower', method = 'color')
 corrplot(corr)
 
-#ÒÔÏÂÊÇ¸÷ÖÖÈÈÍ¼ÀàĞÍ
+#ä»¥ä¸‹æ˜¯å„ç§çƒ­å›¾ç±»å‹
 
 M <- cor(dat)
 corrplot(M, method = "circle")
@@ -45,7 +45,7 @@ corrplot(M, method = "square")
 
 corrplot(M, method = "ellipse")
 
-corrplot(M, method = "number") # ÏÔÊ¾Ïà¹ØĞÔÏµÊı
+corrplot(M, method = "number") # æ˜¾ç¤ºç›¸å…³æ€§ç³»æ•°
 
 corrplot(M, method = "shade")
 
